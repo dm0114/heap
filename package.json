@@ -1,0 +1,19 @@
+{
+  "name": "heap",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@blocksuite/blocks": "^0.13.0",
+    "@blocksuite/presets": "^0.13.0",
+    "@blocksuite/store": "^0.13.0"
+  }
+}
